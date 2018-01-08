@@ -406,8 +406,3 @@ class Chef
     end
   end
 end
-
-Chef::Platform.set(
-  resource: :jenkins_slave,
-  provider: Chef::Provider::JenkinsSlave
-)

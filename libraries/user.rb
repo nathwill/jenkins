@@ -179,8 +179,3 @@ class Chef
     end
   end
 end
-
-Chef::Platform.set(
-  resource: :jenkins_user,
-  provider: Chef::Provider::JenkinsUser
-)
