@@ -439,8 +439,3 @@ EOH
     end
   end
 end
-
-Chef::Platform.set(
-  resource: :jenkins_plugin,
-  provider: Chef::Provider::JenkinsPlugin
-)
